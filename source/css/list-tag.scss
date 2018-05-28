@@ -1,0 +1,23 @@
+.list-tag {
+
+	margin-bottom: rem(20px);
+	&__link {
+		font-family: 'Core Sans NR Lt';
+		color: #000;
+		text-align: left;
+	}
+
+	&__elem {
+		text-align: left;
+		color: $orange;
+		font-family: 'Core Sans NR Blk';
+		font-size: rem(16px);
+		line-height: 1.5;
+		margin-bottom: rem(10px);
+		list-style-position: inside;
+		
+		@include phones() {
+			text-align: center;
+		}
+	}
+}

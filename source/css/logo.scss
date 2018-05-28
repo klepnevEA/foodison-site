@@ -1,0 +1,34 @@
+
+.logo {
+	display: inline-block;
+	
+	
+	img {
+		height: rem(40px);
+		width: auto;
+		display: inline-block;
+		
+		@include phones_320() {
+			margin-top: 10px;
+			width: 110px;
+			height: auto;
+		}
+	}
+
+	&_main {
+		padding: rem(25px) rem(35px);
+		margin-bottom: rem(20px);
+		
+		img {
+			height: rem(99px);
+			width: auto;
+
+			@include phones_320() {
+				margin-top: 0px;
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
+

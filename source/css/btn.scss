@@ -1,0 +1,34 @@
+.btn {
+	display: inline-block;
+	width: 100%;
+	font-size: rem(40px);
+	padding: rem(30px);
+	background-color: $orange;
+	border: 1px solid $orange;
+    border-radius: rem(10px);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    
+    img {
+        width: rem(67px);
+        vertical-align: middle;
+        margin-right: rem(30px);
+    }
+
+    &-link {
+        display: inline;
+        padding: 0;
+        background-color: transparent;
+        color: $orange;
+        font-size: rem(18px);
+        text-decoration: underline;
+        border: 0px;
+        font-family: 'Core Sans NR Lt';
+        margin-bottom: rem(30px);
+    }
+
+    
+   
+}
+

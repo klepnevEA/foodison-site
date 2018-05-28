@@ -1,0 +1,186 @@
+.nav {
+	padding: 0 rem(20px);
+	max-width: rem(300px);
+	margin-bottom: rem(30px);
+	
+	@include phones() {
+		text-align: center;
+	}
+	
+	@media screen and (max-width: $tablets) {
+		max-width: 100%;
+		padding: 0;
+	}
+	
+	&__list {
+		@media screen and (max-width: $tablets) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+	
+	&__elem {
+		height: rem(60px);
+		margin-bottom: rem(3px);
+		transition: 0.3s;
+		@media screen and (max-width: $tablets) {
+			flex: 1 1 auto;
+			margin-right: rem(3px);
+		}
+
+ 
+
+		&_1 {
+			background-color: #009588;
+			
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #009588;
+				}
+			}
+		}
+
+		&_2 {
+			background-color: #03bbd3;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #03bbd3;
+				}
+			}
+		}
+
+		&_3 {
+			background-color: #673bb5;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #673bb5;
+				}
+			}
+		}
+		&_4 {
+			background-color: #e82062;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #e82062;
+				}
+			}
+		}
+		&_5 {
+			background-color: #fe970f;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #fe970f;
+				}
+			}
+		}
+		&_6 {
+			background-color: #9c29ae;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #9c29ae;
+				}
+			}
+		}
+		&_7 {
+			background-color: #4f2b78;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #4f2b78;
+				}
+			}
+		}
+		&_8 {
+			background-color: #4051b3;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #4051b3;
+				}
+			}
+		}
+		&_9 {
+			background-color: #ae2961;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #ae2961;
+				}
+			}
+		}
+		&_10 {
+			background-color: #ae2961;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #ae2961;
+				}
+			}
+		}
+		&_11 {
+			background-color: #e16c3e;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #e16c3e;
+				}
+			}
+		}
+		&_12 {
+			background-color: #b74242;
+			&:hover,
+			&.active {
+				background-color: #fff;
+				
+				& .nav__text {
+					color: #b74242;
+				}
+			}
+		}
+	}
+
+	&__link {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 rem(20px);
+	}
+
+	&__text {
+		color: #fff;
+		font-size: rem(16px);
+		font-family: 'Core Sans NR Blk';
+		transition: 0.3s;
+	}
+}

@@ -1,0 +1,104 @@
+  .cb-col {
+    position: relative; 
+    float: left;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    @extend %clearfix;
+    
+  }
+  .cb-col-12 {
+    width: 100%;
+  }
+  .cb-col-11 {
+    width: 91.66666667%;
+    
+      @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-10 {
+    width: 83.33333333%;
+    
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-9 {
+    width: 75%;
+    
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-8 {
+    width: 66.66666667%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-7 {
+    width: 58.33333333%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-6 {
+    width: 50%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-5 {
+    width: 41.66666667%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-4 {
+    width: 33.33333333%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-3 {
+    width: 25%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-2 {
+    width: 16.66666667%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+  .cb-col-1 {
+    width: 8.33333333%;
+
+     @media screen and (max-width: $tablets) {
+        width: 100%;
+      }
+  }
+
+  .cb-row {
+    @extend %clearfix;
+    margin-left: -5px;
+    margin-right: -5px;
+    
+    &_mb-45 {
+      margin-bottom: 45px;
+    }
+  }
+
+  .cb-container {
+    @extend %clearfix;
+    margin: 0  40px;
+  } 

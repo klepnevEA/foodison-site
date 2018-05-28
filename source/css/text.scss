@@ -1,0 +1,22 @@
+.text {
+	font-family: 'Core Sans NR Lt';
+	font-size: rem(16px);
+	line-height: 1.7;
+	margin-bottom: rem(20px);
+	text-align: left;
+	
+	&__autor {
+		margin-top: rem(40px);
+		font-size: rem(23px);
+		span {
+			font-family: 'Core Sans NR Hv';
+			color: $pink;
+		}
+	}
+
+	&__date {
+		margin-top: rem(30px);
+		font-size: rem(23px);
+	}
+}
+

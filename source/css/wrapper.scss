@@ -1,0 +1,11 @@
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden; 
+	padding-bottom: 68px;
+	
+	&_nofooter {
+		padding-bottom: 0px;
+	}
+}

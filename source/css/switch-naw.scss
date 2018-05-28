@@ -1,0 +1,28 @@
+.switch-naw {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: rem(32px);
+	height: rem(100px);
+	
+    
+    &__arrow {
+    	font-size: rem(50px);
+    	color: $pink;
+    	
+    	&_disabled {
+    		color: #e1e1e1;
+    	}
+    }
+
+    &__title {
+    	width: 70%;
+    	line-height: 1.2;
+    	font-family: 'Core Sans NR Hv';
+    	color: #bebebe;
+    	
+    	span {
+    		font-family: 'Core Sans NR Lt';
+    	}
+    }
+}

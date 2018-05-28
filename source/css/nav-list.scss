@@ -1,0 +1,41 @@
+.nav-list {
+	background-color: #fff;
+	padding: rem(40px) 0;
+	margin-left: auto;
+	
+	&__list {
+		display: flex;
+        justify-content: flex-end;
+        padding-right: rem(10px);
+	}
+
+	&__elem {
+				
+		
+		a {
+			display: inline-block;
+			color: #000;
+			font-size: 18px;
+			padding: 0 rem(20px);
+			border-left: 1px solid $orange;
+			text-transform: uppercase;
+		}
+
+		&:first-child {
+			a {
+				border-left: 0px solid $orange;
+			}
+			
+		}
+	}
+
+	&__search {
+		padding-left: rem(30px);
+		
+		i {
+			color: $gray;
+			font-size: rem(30px);
+			line-height: 0.8 !important;
+		}
+	}
+}

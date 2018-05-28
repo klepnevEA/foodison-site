@@ -1,0 +1,16 @@
+.title {
+	font-size: rem(44px);
+	line-height: 1.2;
+	font-family: 'Core Sans NR Hv';
+	text-transform: uppercase;
+	
+	&_pink {
+		color: $pink;
+	}
+
+	&_left {
+		text-align: left;
+	}
+}
+
+

@@ -1,0 +1,23 @@
+.menu {
+	height: rem(100px);
+	margin-bottom: rem(44px);
+	
+	&__elem {
+		padding-top: rem(10px);
+		height: rem(100px);
+	}
+
+
+	&__img {
+		height: rem(42px);
+		width: auto;
+		margin: 0 auto;
+		margin-bottom: rem(10px);
+	}
+
+	&__text {
+		color: #fff;
+		font-family: 'IntroHeadR-Base';
+		font-size: rem(21px);
+	}
+}

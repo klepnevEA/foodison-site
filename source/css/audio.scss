@@ -1,0 +1,17 @@
+.audio {
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+	height: 234px;
+	margin-bottom: rem(10px);
+	
+
+		@include phones() {
+			height: auto;
+		}
+
+	audio {
+		width: 100%;
+		margin-bottom: rem(5px);
+	}
+}
